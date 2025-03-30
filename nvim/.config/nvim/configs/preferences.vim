@@ -5,6 +5,7 @@ set softtabstop=4
 set expandtab
 set shiftwidth=4
 set autoindent
+set colorcolumn=80
 
 filetype plugin indent on
 "set cursorline

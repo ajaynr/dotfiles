@@ -15,7 +15,10 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 "vim-slime
-nmap <C-s> <Plug>SlimeRegionSend
+"send visual selection
+xmap <C-s> <Plug>SlimeRegionSend
+"send paragraph
+nmap <C-s> <Plug>SlimeParagraphSend
 
 "NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
